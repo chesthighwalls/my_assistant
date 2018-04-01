@@ -2,7 +2,7 @@
 Description=assistant_library_demo app
 
 [Service] 
-ExecStart=/bin/bash -c '/home/pi/AIY-voice-kit-python/env/bin/python3 -u ./src/examples/voice/assistant_library_demo.py ' 
+ExecStart=/bin/bash -c '/home/pi/AIY-voice-kit-python/env/bin/python3 -u ./src/examples/voice/replacement ' 
 WorkingDirectory=/home/pi/AIY-voice-kit-python 
 Restart=always 
 User=pi 
